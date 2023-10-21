@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #e9e8e8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+
+    background: #fff;
+padding: 20px;
+width: 40%;
+margin: 10% auto;
+}
+
+.cont-pay{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 53%;
+    position: relative;
+    right: -329px;
+
+}
+
+.cont-pay .paypal{
+
+height: 40px;
+
+}
+
+.cont-pay i{
+    font-size: 25px;
+    color: #969494;
+    
+}
+
+.contenedor .cont-cont{
+
+    width: 50%;
+    
+    margin: 2% auto;
+    text-align: center;
+}
+
+.contenedor .cont-cont .titulo{
+
+    color: #585858;
+    font-size: 27px;
+    font-weight: 100;
+}
+
+.cont-pa{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 3% 0px;
+    justify-content: center;
+}
+
+
+.contenedor .cont-cont .descri{
+    font-size: 14px;
+    margin: 25px 0px;
+    color: #2c2c2c;
+    font-weight: 600;
+}
+
+.contenedor .descri-a{
+    font-size: 14px;
+    margin: 10px 0px;
+    color: #585858;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 13px 20px;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 50px;
+    background: #0070ba;
+    font-weight: bold;
+    width: 100%;
+}

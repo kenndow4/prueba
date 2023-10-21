@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #e9e8e8;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.contenedor{
+
+    background: #fff;
+padding: 50px;
+width: 40%;
+
+}
+
+.cont-pay{
+
+    display: flex;
+   
+    align-items: center;
+    width: 53%;
+    
+   
+
+}
+
+.cont-pay .paypal{
+
+height: 40px;
+
+}
+
+.cont-pay i{
+    font-size: 25px;
+    color: #969494;
+    
+}
+
+.contenedor .cont-cont{
+
+    width: 100%;
+    
+    
+    text-align: center;
+}
+
+.contenedor .cont-cont .titulo{
+
+    color: #585858;
+    font-size: 27px;
+    font-weight: 100;
+}
+
+.cont-pa{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 3% 0px;
+    justify-content: center;
+}
+
+.cont-pa p{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+.contenedor .cont-cont .descri{
+    font-size: 14px;
+    margin: 10px 0px;
+    color: #1f1f1f;
+    font-weight: 600;
+    text-align: left;
+}
+
+.contenedor .descri-a{
+    font-size: 14px;
+    margin: 10px 0px;
+    color: #261bc4;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 13px 20px;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 50px;
+    background: #0070ba;
+    font-weight: bold;
+    width: 100%;
+}
+
+.c{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   border-bottom: solid 1px #ccc;
+   padding: 10px 0px;
+   padding-bottom: 30px;
+}
+
+.tra{
+    text-align: left;
+    margin: 30px 0px;
+    font-size: 18px;
+}
+
+.d{
+    margin-top: 18px;
+}
